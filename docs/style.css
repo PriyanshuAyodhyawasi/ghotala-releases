@@ -1,0 +1,39 @@
+:root {
+  --bg: #eef1fb; --text: #0b0b0f; --text2: #5c5c66; --glass: rgba(255,255,255,.62);
+  --rim: rgba(255,255,255,.9); --accent: #007aff; --blob1: #7fb8ff; --blob2: #cda8ff; --blob3: #ffadd2; --blob4: #8eebd8;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #07080f; --text: #fff; --text2: #a5a5b0; --glass: rgba(255,255,255,.08);
+    --rim: rgba(255,255,255,.22); --accent: #0a84ff; --blob1: #1e5bff; --blob2: #7b2cff; --blob3: #ff2d87; --blob4: #00bfa5; }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; min-height: 100vh; color: var(--text); background: var(--bg);
+  font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+  background-image:
+    radial-gradient(60vmax 60vmax at 5% 0%, color-mix(in srgb, var(--blob1) 70%, transparent), transparent 60%),
+    radial-gradient(55vmax 55vmax at 100% 20%, color-mix(in srgb, var(--blob2) 65%, transparent), transparent 60%),
+    radial-gradient(60vmax 60vmax at 10% 80%, color-mix(in srgb, var(--blob4) 55%, transparent), transparent 60%),
+    radial-gradient(55vmax 55vmax at 95% 95%, color-mix(in srgb, var(--blob3) 60%, transparent), transparent 60%);
+  background-attachment: fixed;
+}
+main { max-width: 760px; margin: 0 auto; padding: 48px 16px 64px; }
+.card {
+  background: var(--glass); border: 1px solid var(--rim); border-radius: 28px; padding: 28px;
+  backdrop-filter: blur(24px) saturate(160%); -webkit-backdrop-filter: blur(24px) saturate(160%);
+  margin-bottom: 18px;
+}
+header { display: flex; align-items: center; gap: 18px; margin-bottom: 22px; }
+header img { width: 84px; height: 84px; border-radius: 20px; }
+h1 { font-size: 40px; line-height: 1.1; margin: 0; letter-spacing: -.02em; }
+h2 { font-size: 22px; margin: 0 0 8px; letter-spacing: -.01em; }
+p, li { color: var(--text2); }
+p strong, li strong { color: var(--text); }
+a { color: var(--accent); }
+.btn {
+  display: inline-block; background: var(--accent); color: #fff; text-decoration: none; font-weight: 600;
+  padding: 12px 22px; border-radius: 999px; margin: 6px 8px 0 0;
+}
+.btn.ghost { background: var(--glass); color: var(--accent); border: 1px solid var(--rim); }
+ul { padding-left: 20px; }
+footer { text-align: center; font-size: 14px; color: var(--text2); margin-top: 28px; }

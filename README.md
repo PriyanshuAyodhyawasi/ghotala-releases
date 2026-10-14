@@ -11,3 +11,7 @@ This repository only holds APK downloads (see **Releases**). The source code is 
 1. Install [Obtainium](https://github.com/ImranR98/Obtainium/releases) on your phone.
 2. In Obtainium tap **Add App** and paste `https://github.com/PriyanshuAyodhyawasi/ghotala-releases`.
 3. Tap **Install**. Obtainium will notify you whenever a new version is published here.
+
+---
+
+Inspired by TaskPulse by Srijan Rishi ❤️

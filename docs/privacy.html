@@ -59,7 +59,8 @@
     <h2>Password Vault</h2>
     <p>Logins, bank details, PINs and secure notes you save in the Vault are encrypted on your phone with AES-256.
       The key is derived from your Vault PIN and protected by your phone's hardware key store; fingerprint unlock uses
-      a key that Android only releases after a successful fingerprint check. Your PIN and recovery code are never stored
+      a key that Android only releases after a successful fingerprint check. Face unlock is off by default; if you turn it on,
+      Ghotala relies on your phone's face check, which Android rates as less secure than a fingerprint. Your PIN and recovery code are never stored
       or sent anywhere. If the Vault is included in a backup (JSON or your own Google Drive), it stays encrypted and can
       only be opened with your PIN on the same phone or with your recovery code. Screenshots are blocked while the Vault is open.</p>
   </section>
@@ -69,14 +70,22 @@
     <ul>
       <li>No advertising, analytics or tracking.</li>
       <li>No selling or sharing of personal data.</li>
-      <li>No access to your contacts, location, photos or files.</li>
+      <li>No access to your contacts or location.</li>
+      <li>Photos, the camera and the microphone are used only when you add a photo, drawing or voice clip to a note,
+        and those files stay in Ghotala's private storage on your phone.</li>
     </ul>
   </section>
 
   <section class="card">
     <h2>Permissions on your phone</h2>
     <p>Ghotala asks for notification, exact-alarm and battery-optimization permissions only so that reminders fire on time.
-      It needs internet access only when you use Google Drive backup.</p>
+      It uses the internet only to:</p>
+    <ul>
+      <li>back up to and restore from your Google Drive, if you connect it;</li>
+      <li>stream Lock In music from Ghotala's public GitHub page (tracks are cached on your phone);</li>
+      <li>check GitHub for a newer version of Ghotala, at most every few hours.</li>
+    </ul>
+    <p>These requests to GitHub send no personal data. Like any website, GitHub sees your IP address.</p>
   </section>
 
   <section class="card">

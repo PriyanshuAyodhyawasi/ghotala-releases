@@ -14,7 +14,7 @@
     <img src="logo.png" alt="Ghotala app icon">
     <div>
       <h1>Privacy Policy</h1>
-      <p style="margin:4px 0 0">Ghotala for Android · Last updated October 14, 2026</p>
+      <p style="margin:4px 0 0">Ghotala for Android · Last updated October 16, 2026</p>
     </div>
   </header>
 
@@ -38,10 +38,13 @@
     <h2>Optional Google Drive backup</h2>
     <p>You can choose to connect your Google account to back up Ghotala's data. If you do:</p>
     <ul>
-      <li><strong>What Ghotala accesses:</strong> only its own hidden application data folder in your Google Drive
-        (the <code>drive.appdata</code> permission). Ghotala cannot see, read, change or delete any of your other Drive
-        files, photos or documents.</li>
-      <li><strong>What it stores there:</strong> backup files containing your Ghotala tasks, daily lists and settings.</li>
+      <li><strong>What Ghotala accesses:</strong> only files Ghotala itself creates in your Google Drive (the
+        <code>drive.file</code> permission), plus its own hidden application data folder (<code>drive.appdata</code>),
+        where backups made by older versions were kept. Ghotala cannot see, read, change or delete any of your other
+        Drive files, photos or documents.</li>
+      <li><strong>What it stores there:</strong> a "Ghotala" folder you can open in Drive at any time, even without the
+        app: your daily list and tasks as readable files, each note as a file with its photos, drawings and voice
+        notes next to it, your Vault (still encrypted), and full backups in "Ghotala/Backups" for restoring.</li>
       <li><strong>How it's used:</strong> solely to save backups when you tap "Back up now" or when you turn on automatic
         backup, and to restore them when you choose "Restore from Drive".</li>
       <li><strong>Sharing:</strong> backups are transferred directly between your phone and your Google Drive. They are not
@@ -59,8 +62,7 @@
     <h2>Password Vault</h2>
     <p>Logins, bank details, PINs and secure notes you save in the Vault are encrypted on your phone with AES-256.
       The key is derived from your Vault PIN and protected by your phone's hardware key store; fingerprint unlock uses
-      a key that Android only releases after a successful fingerprint check. Face unlock is off by default; if you turn it on,
-      Ghotala relies on your phone's face check, which Android rates as less secure than a fingerprint. Your PIN and recovery code are never stored
+      a key that Android only releases after a successful fingerprint check. Your PIN and recovery code are never stored
       or sent anywhere. If the Vault is included in a backup (JSON or your own Google Drive), it stays encrypted and can
       only be opened with your PIN on the same phone or with your recovery code. Screenshots are blocked while the Vault is open.</p>
   </section>

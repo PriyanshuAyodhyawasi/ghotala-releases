@@ -1,17 +1,98 @@
-# Ghotala — releases
+<p align="center">
+  <img src="docs/logo.png" width="112" alt="Ghotala icon">
+</p>
 
-Installable Android builds of **Ghotala**, a personal accountability app: a daily to-do list
-whose unfinished items carry over to the next day, plus deadline tasks that keep reminding
-you until they're done.
+<h1 align="center">Ghotala</h1>
 
-This repository only holds APK downloads (see **Releases**). The source code is private.
+<p align="center">
+  <b>Your day, your routine, your focus. One calm app.</b><br>
+  To-dos that don't get lost · Rhythm · Diary · Lock In · Notes · Vault
+</p>
 
-## Install and auto-update with Obtainium
+<p align="center">
+  <a href="https://github.com/PriyanshuAyodhyawasi/ghotala-releases/releases/latest/download/Ghotala.apk"><img alt="Download for Android" src="https://img.shields.io/badge/Download-Android%20APK-0a84ff?style=for-the-badge&logo=android&logoColor=white"></a>
+  <a href="https://priyanshuayodhyawasi.github.io/ghotala-releases/"><img alt="Website" src="https://img.shields.io/badge/Website-Ghotala-7b5cff?style=for-the-badge"></a>
+  <a href="https://github.com/PriyanshuAyodhyawasi/ghotala-releases/releases/latest"><img alt="Latest version" src="https://img.shields.io/github/v/release/PriyanshuAyodhyawasi/ghotala-releases?style=for-the-badge&label=version&color=2fbf71"></a>
+</p>
 
-1. Install [Obtainium](https://github.com/ImranR98/Obtainium/releases) on your phone.
-2. In Obtainium tap **Add App** and paste `https://github.com/PriyanshuAyodhyawasi/ghotala-releases`.
-3. Tap **Install**. Obtainium will notify you whenever a new version is published here.
+<p align="center">
+  <img src="docs/screens/hero.jpg" alt="Ghotala: Today, Diary, Lock In, Rhythm and Your week" width="100%">
+</p>
+
+<p align="center">Free · no ads · no account · your data stays on your phone</p>
 
 ---
 
-Inspired by TaskPulse by Srijan Rishi ❤️
+## ✨ What's inside
+
+| | |
+|---|---|
+| ✅ **Today** | A to-do list for each day. Type *"Call mom at 6pm"* and the time sets itself. Anything unfinished moves to tomorrow. |
+| 🔁 **Keep reminding me** | Tasks with a deadline that nag you, a bit more each time, until they're done. |
+| 🌿 **Rhythm** | Your daily routine on a timeline. Add a block in one line: *"Water every 2 hours from 8am to 10pm"*. |
+| 📖 **Diary** | One page a day: mood, feelings, a gentle prompt, a photo. *Your week* shows your mood, your Day Score and, after two weeks, what makes your good days good. |
+| 🔒 **Lock In** | Focus mode with a live scene, lo-fi, rain, Mozart, Hz tones, your own songs, or Spotify and YouTube Music. One tap starts timer and sound together. |
+| 📝 **Notes** | Text, checklists, photos, drawings and voice. Long-press any line → *Remind me*. |
+| 🔐 **Vault** | Passwords and secure notes, encrypted on your phone. Pull down on Today to open it. |
+| 🔔 **Smart notifications** | Snooze to 10 min, 1 hour, tonight or tomorrow. Log your mood from the diary reminder. Pick 50 reminder sounds and get one at random. |
+| 🧭 **Guide** | A short tour on first open, "What's new" after each update, and every tip again in Settings. |
+| 📥 **Downloads** | Extra Lock In scenes and sound packs, downloaded only if you want them. The app stays small. |
+| 🧩 **Widgets** | Today, Rhythm (tick blocks off from the home screen) and a round Lock In timer. |
+| ☁️ **Backup** | Optional: everything goes to a *Ghotala* folder in **your own** Google Drive. |
+
+## 📸 Screenshots
+
+<table>
+  <tr>
+    <td><img src="docs/screens/today.jpg" alt="Today"></td>
+    <td><img src="docs/screens/diary.jpg" alt="Diary"></td>
+    <td><img src="docs/screens/week.jpg" alt="Your week"></td>
+    <td><img src="docs/screens/lockin.jpg" alt="Lock In"></td>
+  </tr>
+  <tr>
+    <td align="center">Today</td><td align="center">Diary</td><td align="center">Your week</td><td align="center">Lock In</td>
+  </tr>
+  <tr>
+    <td><img src="docs/screens/rhythm.jpg" alt="Rhythm"></td>
+    <td><img src="docs/screens/notes.jpg" alt="Notes"></td>
+    <td><img src="docs/screens/month.jpg" alt="Month of moods"></td>
+    <td><img src="docs/screens/widgets.jpg" alt="Widgets"></td>
+  </tr>
+  <tr>
+    <td align="center">Rhythm</td><td align="center">Notes</td><td align="center">Month of moods</td><td align="center">Widgets</td>
+  </tr>
+</table>
+
+## 📲 Install
+
+1. **[Download Ghotala.apk](https://github.com/PriyanshuAyodhyawasi/ghotala-releases/releases/latest/download/Ghotala.apk)** on your Android phone.
+2. Open it. If Android asks, allow installing from your browser or Files app.
+3. Open Ghotala. The quick tour shows you around in five tips.
+
+**Updates:** when a new version is out, Ghotala shows *"Update now"* on Today and installs it for you. Your data is kept.
+Prefer automatic updates? Add this repo in [Obtainium](https://github.com/ImranR98/Obtainium):
+`https://github.com/PriyanshuAyodhyawasi/ghotala-releases`
+
+Works on Android 8.0 and newer.
+
+## 🔒 Privacy
+
+- No ads, no analytics, no tracking, no account.
+- Everything is stored on your phone. Google Drive backup is optional and goes to **your** Drive.
+- The Vault is encrypted with your PIN. A locked Diary hides from screenshots and recent apps.
+- Screen time and music control are optional and stay on your phone.
+
+Full policy: **[Privacy policy](https://priyanshuayodhyawasi.github.io/ghotala-releases/privacy.html)**
+
+## ❓ FAQ
+
+**Is it free?** Yes. No ads, no subscription.<br>
+**Is it on the Play Store?** Not yet. Download it here.<br>
+**Will I lose my data when I update?** No. Updates install over the old version and keep everything.<br>
+**Where's the source code?** The code is private. This repository holds the releases, the website and the downloads.
+
+## 💬 Feedback
+
+Found a bug or have an idea? [Open an issue](https://github.com/PriyanshuAyodhyawasi/ghotala-releases/issues).
+
+<p align="center"><sub>Crafted with ❤️ by Chiku · Inspired by TaskPulse by Srijan Rishi</sub></p>

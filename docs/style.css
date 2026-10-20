@@ -37,3 +37,26 @@ a { color: var(--accent); }
 .btn.ghost { background: var(--glass); color: var(--accent); border: 1px solid var(--rim); }
 ul { padding-left: 20px; }
 footer { text-align: center; font-size: 14px; color: var(--text2); margin-top: 28px; }
+
+/* 4.9 site: hero, feature grid, screenshot strip, install steps */
+.hero { display: block; text-align: center; margin: 8px 0 26px; }
+.hero .icon { width: 108px; height: 108px; border-radius: 26px; box-shadow: 0 18px 50px rgba(0,0,0,.28); }
+.hero h1 { font-size: 52px; margin-top: 16px; }
+.tag { font-size: 20px; color: var(--text); margin: 8px 0 18px; }
+.cta { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+.cta .btn { margin: 0; }
+.small { font-size: 14px; color: var(--text2); margin-top: 12px; }
+.banner { width: 100%; border-radius: 26px; display: block; margin: 0 0 22px; box-shadow: 0 30px 80px rgba(0,0,0,.35); }
+main { max-width: 1020px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; margin-bottom: 18px; }
+.grid .card { margin: 0; padding: 22px; }
+.grid h3 { margin: 6px 0 6px; font-size: 18px; }
+.grid p { margin: 0; font-size: 15px; }
+.em { font-size: 26px; }
+.shots { display: flex; gap: 14px; overflow-x: auto; padding-bottom: 8px; scroll-snap-type: x mandatory; }
+.shots figure { margin: 0; flex: 0 0 190px; scroll-snap-align: start; text-align: center; }
+.shots img { width: 190px; border-radius: 24px; display: block; border: 1px solid var(--rim); }
+.shots figcaption { font-size: 13px; color: var(--text2); margin-top: 6px; }
+.steps { padding-left: 22px; }
+.steps li { margin: 6px 0; }
+@media (max-width: 560px) { .hero h1 { font-size: 40px; } .tag { font-size: 17px; } .shots figure { flex-basis: 150px; } .shots img { width: 150px; } }

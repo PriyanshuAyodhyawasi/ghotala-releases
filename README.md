@@ -6,7 +6,7 @@
 
 <p align="center">
   <b>Your day, your routine, your focus. One calm app.</b><br>
-  To-dos that don't get lost · Rhythm · Diary · Lock In · Notes · Vault
+  To-dos that don't get lost · Rhythm · Diary · Lock In · Notes · Score · Vault
 </p>
 
 <p align="center">
@@ -30,14 +30,16 @@
 | ✅ **Today** | A to-do list for each day. Type *"Call mom at 6pm"* and the time sets itself. Anything unfinished moves to tomorrow. |
 | 🔁 **Keep reminding me** | Tasks with a deadline that nag you, a bit more each time, until they're done. |
 | 🌿 **Rhythm** | Your daily routine on a timeline. Add a block in one line: *"Water every 2 hours from 8am to 10pm"*. |
-| 📖 **Diary** | One page a day: mood, feelings, a gentle prompt, a photo. *Your week* shows your mood, your Day Score and, after two weeks, what makes your good days good. |
-| 🔒 **Lock In** | Focus mode with a live scene, lo-fi, rain, Mozart, Hz tones, your own songs, or Spotify and YouTube Music. One tap starts timer and sound together. |
-| 📝 **Notes** | Text, checklists, photos, drawings and voice. Long-press any line → *Remind me*. |
+| 📖 **Diary** | One page a day: mood, feelings, a gentle prompt, a photo. Log your mood right from the notification. *Your week* shows, after two weeks, what makes your good days good. |
+| 🔒 **Lock In** | Focus, Pomodoro or Sleep. A new scene each time, and a real music player (shuffle, repeat, queue, seek) for Ghotala's music, your own songs, or Spotify and YouTube Music. |
+| 📝 **Notes** | Text, checklists, photos, drawings and voice. Long-press any line → *Remind me*. Lock any note with your Vault PIN or fingerprint. |
+| 📈 **Score** | Today's score, insights worked out on your phone, screen time, and *Ask AI about your month*: export the data you pick to Claude, Gemini or ChatGPT. |
+| ↶ **Undo everything** | 5-second Undo after every tick, snooze, move or delete. Undo / Redo while writing, or shake your phone. |
 | 🔐 **Vault** | Passwords and secure notes, encrypted on your phone. Pull down on Today to open it. |
-| 🔔 **Smart notifications** | Snooze to 10 min, 1 hour, tonight or tomorrow. Log your mood from the diary reminder. Pick 50 reminder sounds and get one at random. |
+| 🔔 **Smart notifications** | Snooze to 10 min, 1 hour, tonight or tomorrow. Log your mood from the diary reminder. Pick your own reminder sounds and get one at random. |
 | 🧭 **Guide** | A short tour on first open, "What's new" after each update, and every tip again in Settings. |
-| 📥 **Downloads** | Extra Lock In scenes and sound packs, downloaded only if you want them. The app stays small. |
-| 🧩 **Widgets** | Today, Rhythm (tick blocks off from the home screen) and a round Lock In timer. |
+| 📥 **Downloads** | Lock In scenes, reminder sounds and alarm sounds. Download, then tick what each feature should use. The app stays small. |
+| 🧩 **Widgets** | Today, Rhythm (tick blocks off from the home screen) and the Ghotala dock: Today, Rhythm, Notes, Diary, Lock In and Vault in one tap. |
 | ☁️ **Backup** | Optional: everything goes to a *Ghotala* folder in **your own** Google Drive. |
 
 ## 📸 Screenshots
@@ -79,7 +81,8 @@ Works on Android 8.0 and newer.
 
 - No ads, no analytics, no tracking, no account.
 - Everything is stored on your phone. Google Drive backup is optional and goes to **your** Drive.
-- The Vault is encrypted with your PIN. A locked Diary hides from screenshots and recent apps.
+- The Vault and locked notes are encrypted with your PIN. A locked Diary hides from screenshots and recent apps.
+- Score insights are worked out on your phone. *Ask AI* only shares a file when you pick an app.
 - Screen time and music control are optional and stay on your phone.
 
 Full policy: **[Privacy policy](https://priyanshuayodhyawasi.github.io/ghotala-releases/privacy.html)**

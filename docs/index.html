@@ -9,7 +9,7 @@
   <meta property="og:description" content="Your day, your routine, your focus. One calm app for Android.">
   <meta property="og:image" content="https://priyanshuayodhyawasi.github.io/ghotala-releases/screens/hero.jpg">
   <link rel="icon" href="logo.png">
-  <link rel="stylesheet" href="style.css?v=52">
+  <link rel="stylesheet" href="style.css?v=53">
 </head>
 <body>
 <main>
@@ -21,6 +21,7 @@
       <a class="btn" href="https://github.com/PriyanshuAyodhyawasi/ghotala-releases/releases/latest/download/Ghotala.apk">Download for Android</a>
       <a class="btn ghost" href="#install">How to install</a>
     </div>
+    <p class="small" id="latest" hidden></p>
     <p class="small">Free · no ads · no account · your data stays on your phone</p>
   </header>
 
@@ -33,7 +34,7 @@
     <div class="card"><span class="em">🔒</span><h3>Lock In</h3><p>Focus, Pomodoro or Sleep, a new scene each time, and a real player: shuffle, repeat, queue and seek.</p></div>
     <div class="card"><span class="em">📝</span><h3>Notes</h3><p>Text, lists, photos, drawings and voice. Lock any note with your Vault PIN. Undo, redo, or just shake.</p></div>
     <div class="card"><span class="em">🔐</span><h3>Vault</h3><p>Passwords and secure notes, encrypted on your phone. Pull down on Today to open it.</p></div>
-    <div class="card"><span class="em">⏰</span><h3>Alarm</h3><p>Missions to turn it off (math, typing, memory, shake, squats, steps, QR code, photo), wake-up check, smart wake with sleep tracking, and a good-morning card. All free.</p></div>
+    <div class="card"><span class="em">⏰</span><h3>Alarm</h3><p>Missions to turn it off (math, typing, memory, shake, squats, steps, QR code, photo). Alarm series, naps, skip holidays, a sunrise screen, a talking alarm, your own songs, and sleep tracking with smart wake. All free.</p></div>
     <div class="card"><span class="em">📈</span><h3>Score</h3><p>Today's score, insights about your days, screen time, and “Ask AI about your month” for Claude, Gemini or ChatGPT.</p></div>
     <div class="card"><span class="em">🔔</span><h3>Smart reminders</h3><p>Snooze to tonight or tomorrow, pick your own sounds, and keep-reminding tasks that won't let you slack.</p></div>
     <div class="card"><span class="em">🧩</span><h3>Widgets</h3><p>Today, Rhythm (tick blocks off right there) and the Ghotala dock: one tap to any part of the app.</p></div>
@@ -80,5 +81,18 @@
     <p>Crafted with ❤️ by Chiku · Inspired by TaskPulse by Srijan Rishi</p>
   </footer>
 </main>
+<script>
+  // The newest version, from GitHub, under the Download button (the button always gets the newest APK).
+  fetch('https://api.github.com/repos/PriyanshuAyodhyawasi/ghotala-releases/releases/latest')
+    .then(function (r) { return r.ok ? r.json() : null; })
+    .then(function (j) {
+      if (!j || !j.tag_name) return;
+      var el = document.getElementById('latest');
+      var when = j.published_at ? new Date(j.published_at).toLocaleDateString(undefined, { day: 'numeric', month: 'short', year: 'numeric' }) : '';
+      el.textContent = 'Latest version ' + j.tag_name.replace(/^v/, '') + (when ? ' · ' + when : '');
+      el.hidden = false;
+    })
+    .catch(function () {});
+</script>
 </body>
 </html>

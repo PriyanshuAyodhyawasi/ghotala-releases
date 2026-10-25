@@ -33,7 +33,7 @@
 | 📖 **Diary** | One page a day: mood, feelings, a gentle prompt, a photo. Log your mood right from the notification. *Your week* shows, after two weeks, what makes your good days good. |
 | 🔒 **Lock In** | Focus, Pomodoro or Sleep. A new scene each time, and a real music player (shuffle, repeat, queue, seek) for Ghotala's music, your own songs, or Spotify and YouTube Music. |
 | 📝 **Notes** | Text, checklists, photos, drawings and voice. Long-press any line → *Remind me*. Lock any note with your Vault PIN or fingerprint. |
-| ⏰ **Alarm** | Missions to turn it off: math, typing, memory, shake, squats, steps, scan a QR code or match a photo. Wake-up check, backup alarm, gentle start, snooze limits, quick naps, a good-morning card with weather, bedtime reminder, sleep tracking and smart wake. Premium alarm features, free. |
+| ⏰ **Alarm** | Missions to turn it off: math, typing, memory, shake, squats, steps, scan a QR code or match a photo. Alarm series (say 6:00 – 6:30, every 5 min), every other day, chosen dates, skip holidays and your days off. Your phone's alarm tones, Ghotala's, or your own songs. Sunrise screen, flashlight, talking alarm, naps, wake-up check, backup alarm, a good-morning card with weather, sleep tracking and smart wake. *Try it now* rings once without saving. Premium alarm features, free. |
 | 📈 **Score** | Today's score, insights worked out on your phone, screen time, and *Ask AI about your month*: export the data you pick to Claude, Gemini or ChatGPT. |
 | ↶ **Undo everything** | 5-second Undo after every tick, snooze, move or delete. Undo / Redo while writing, or shake your phone. |
 | 🔐 **Vault** | Passwords and secure notes, encrypted on your phone. Pull down on Today to open it. |
@@ -83,7 +83,7 @@ Works on Android 8.0 and newer.
 - No ads, no analytics, no tracking, no account.
 - Everything is stored on your phone. Google Drive backup is optional and goes to **your** Drive.
 - The Vault and locked notes are encrypted with your PIN. A locked Diary hides from screenshots and recent apps.
-- Alarm missions (camera, steps) and sleep tracking work on your phone; the mic only measures loudness, nothing is recorded.
+- Alarm missions (camera, steps) and sleep tracking work on your phone; the mic only measures loudness, nothing is recorded. Songs you pick for alarms are played in place, never copied or uploaded.
 - Score insights are worked out on your phone. *Ask AI* only shares a file when you pick an app.
 - Screen time and music control are optional and stay on your phone.
 

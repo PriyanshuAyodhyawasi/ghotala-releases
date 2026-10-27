@@ -30,17 +30,18 @@
 | ✅ **Today** | A to-do list for each day. Type *"Call mom at 6pm"* and the time sets itself. Anything unfinished moves to tomorrow. |
 | 🔁 **Keep reminding me** | Tasks with a deadline that nag you, a bit more each time, until they're done. |
 | 🌿 **Rhythm** | Your daily routine on a timeline. Add a block in one line: *"Water every 2 hours from 8am to 10pm"*. |
-| 📖 **Diary** | One page a day: mood, feelings, a gentle prompt, a photo. Log your mood right from the notification. *Your week* shows, after two weeks, what makes your good days good. |
+| 📖 **Diary** | One page a day: mood check-ins any time (the day's mood is their average), feelings, a gentle prompt, photos, #tags and search. Speak instead of typing. Insights from day 3, and on a rough day, a good day from before. |
 | 🔒 **Lock In** | Focus, Pomodoro or Sleep. A new scene each time, and a real music player (shuffle, repeat, queue, seek) for Ghotala's music, your own songs, or Spotify and YouTube Music. |
-| 📝 **Notes** | Text, checklists, photos, drawings and voice. Long-press any line → *Remind me*. Lock any note with your Vault PIN or fingerprint. |
-| ⏰ **Alarm** | Missions to turn it off: math, typing, memory, shake, squats, steps, scan a QR code or match a photo. Alarm series (say 6:00 – 6:30, every 5 min), every other day, chosen dates, skip holidays and your days off. Your phone's alarm tones, Ghotala's, or your own songs. Sunrise screen, flashlight, talking alarm, naps, wake-up check, backup alarm, a good-morning card with weather, sleep tracking and smart wake. *Try it now* rings once without saving. Premium alarm features, free. |
+| 📝 **Notes** | Every note is a chat with yourself: messages with times, checklists, photos, drawings and voice notes. Speak to type, translate Hindi ↔ English, hold a message for Remind me. Lock any note with your Vault PIN or fingerprint. |
+| 📅 **Calendar** | Month, week, day and list views with India's holidays and festivals, plus your reminders, note reminders, Rhythm, alarms and moods. |
+| ⏰ **Alarm** | 13 missions to turn it off: math, typing, memory, shake, squats, steps, QR code, two codes in two rooms, photo, number order, odd one out, catch the dot, hold flat. Harder after a week of snoozing. Alarm series, every other day, chosen dates. Your phone's alarm tones, Ghotala's, or your own songs. Sunrise screen, flashlight, talking alarm, naps, wake-up check, backup alarm, morning routine and a good-morning card. *Try it now* rings once without saving. Free. |
 | 📈 **Score** | Today's score, insights worked out on your phone, screen time, and *Ask AI about your month*: export the data you pick to Claude, Gemini or ChatGPT. |
 | ↶ **Undo everything** | 5-second Undo after every tick, snooze, move or delete. Undo / Redo while writing, or shake your phone. |
 | 🔐 **Vault** | Passwords and secure notes, encrypted on your phone. Pull down on Today to open it. |
 | 🔔 **Smart notifications** | Snooze to 10 min, 1 hour, tonight or tomorrow. Log your mood from the diary reminder. Pick your own reminder sounds and get one at random. |
 | 🧭 **Guide** | A short tour on first open, "What's new" after each update, and every tip again in Settings. |
 | 📥 **Downloads** | Lock In scenes, reminder sounds and alarm sounds. Download, then tick what each feature should use. The app stays small. |
-| 🧩 **Widgets** | Today, Rhythm (tick blocks off from the home screen) and the Ghotala dock: Today, Rhythm, Notes, Diary, Lock In and Vault in one tap. |
+| 🧩 **Widgets** | Today, Rhythm (tick blocks off from the home screen) and the Ghotala dock: Today, Rhythm, Notes, Diary, Lock In and Vault in one tap, with your next alarm. |
 | ☁️ **Backup** | Optional: everything goes to a *Ghotala* folder in **your own** Google Drive. |
 
 ## 📸 Screenshots
@@ -83,7 +84,8 @@ Works on Android 8.0 and newer.
 - No ads, no analytics, no tracking, no account.
 - Everything is stored on your phone. Google Drive backup is optional and goes to **your** Drive.
 - The Vault and locked notes are encrypted with your PIN. A locked Diary hides from screenshots and recent apps.
-- Alarm missions (camera, steps) and sleep tracking work on your phone; the mic only measures loudness, nothing is recorded. Songs you pick for alarms are played in place, never copied or uploaded.
+- Alarm missions (camera, steps) work on your phone. Songs you pick for alarms are played in place, never copied or uploaded.
+- Voice typing uses your phone's speech recognizer. Translate sends only the text you pick to MyMemory.
 - Score insights are worked out on your phone. *Ask AI* only shares a file when you pick an app.
 - Screen time and music control are optional and stay on your phone.
 

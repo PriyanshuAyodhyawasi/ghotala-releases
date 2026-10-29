@@ -6,16 +6,16 @@
   <title>Ghotala Privacy Policy</title>
   <meta name="description" content="How Ghotala handles your data, including optional Google Drive backups.">
   <link rel="icon" href="logo.png">
-  <link rel="stylesheet" href="style.css?v=49">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=56">
 </head>
 <body>
-<main>
+<main class="doc">
   <header>
-    <img src="logo.png" alt="Ghotala app icon">
-    <div>
-      <h1>Privacy Policy</h1>
-      <p style="margin:4px 0 0">Ghotala for Android · Last updated October 27, 2026</p>
-    </div>
+    <a href="index.html"><img src="logo-120.png" alt="Ghotala app icon" width="56" height="56"></a>
+    <h1>Privacy policy</h1>
+    <p style="margin:4px 0 0">Ghotala for Android · Last updated October 29, 2026</p>
   </header>
 
   <section class="card">
@@ -70,6 +70,24 @@
   </section>
 
   <section class="card">
+    <h2>Ghotala AI (optional)</h2>
+    <p>You can connect an AI service you choose (Claude by Anthropic, ChatGPT by OpenAI, Gemini by Google, or another
+      OpenAI-style service) with your own API key, in Settings → AI. Ghotala has no AI of its own and no servers.</p>
+    <ul>
+      <li><strong>Your key</strong> is encrypted on your phone with a key held in Android's hardware key store. It is never
+        included in backups, exports or Google Drive, and never sent anywhere except to the AI service you chose.</li>
+      <li><strong>What is sent:</strong> only while you use the assistant, what you say or type, and the parts of Ghotala it needs
+        to answer (for example today's to-dos, your Rhythm, moods and day scores when you ask "How was my week?"), go directly
+        from your phone to the AI service you connected. Speech is turned into text by your phone's own speech recognizer first.</li>
+      <li><strong>Nothing changes without you:</strong> before the assistant adds a reminder, note, Rhythm block, alarm or diary
+        line, Ghotala shows it and waits for your yes.</li>
+      <li><strong>That service's rules apply</strong> to what you send it, under your own account with them. The developer never
+        receives, sees or stores any of it.</li>
+      <li>Disconnect at any time in Settings → AI; the key is deleted from your phone.</li>
+    </ul>
+  </section>
+
+  <section class="card">
     <h2>What Ghotala does not do</h2>
     <ul>
       <li>No advertising, analytics or tracking.</li>
@@ -95,7 +113,7 @@
         text-to-speech. The flashlight is only switched on while an alarm rings.</li>
       <li><strong>Weather (optional):</strong> if you add your city, its map position (not you, not your location) is sent to
         Open-Meteo to get the morning weather.</li>
-      <li><strong>Score insights:</strong> the observations on the Score page are worked out on your phone. No AI service is used.</li>
+      <li><strong>Insights:</strong> the observations on the Insights page are worked out on your phone. No AI service is used unless you ask Ghotala AI.</li>
       <li><strong>Ask AI (export):</strong> if you tap "Ask AI about your month", Ghotala makes a file from the data you tick
         (diary writing and note titles are off unless you pick them) and opens Android's share menu. Nothing is sent until
         you pick an app; what that app does with it is covered by that app's own privacy policy.</li>
@@ -116,6 +134,7 @@
       <li>get the morning weather for the city you chose, from Open-Meteo (open-meteo.com), only if you added one;</li>
       <li>download Google's public "Holidays in India" calendar for the Calendar, at most once a week (no account, nothing about you is sent);</li>
       <li>turn speech into text with your phone's own speech recognizer when you tap 🎙 (this works like your keyboard's voice typing; Ghotala keeps only the text);</li>
+      <li>talk to the AI service you connected, only while you use Ghotala AI (see above);</li>
       <li>download Lock In scenes and reminder or alarm sounds from Ghotala's public GitHub page, only when you choose them in Settings → Downloads, and read the list of what's available there.</li>
     </ul>
     <p>These requests to GitHub send no personal data. Like any website, GitHub sees your IP address.</p>

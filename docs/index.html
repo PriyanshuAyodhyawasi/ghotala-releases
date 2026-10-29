@@ -4,20 +4,28 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Ghotala</title>
-  <meta name="description" content="Ghotala for Android: to-dos that don't get lost, a daily Rhythm, a research-backed Diary, Lock In focus mode with a real music player, an Alarm with missions, Notes as chats you can lock, a Calendar with India's holidays, Insights, and an encrypted Vault. Free, no ads, no account.">
+  <meta name="description" content="Ghotala for Android: your to-dos, daily routine, notes, diary, alarms and focus in one calm app, with an AI you connect yourself. Free, no ads, no account.">
   <meta property="og:title" content="Ghotala">
-  <meta property="og:description" content="Your day, your routine, your focus. One calm app for Android.">
-  <meta property="og:image" content="https://priyanshuayodhyawasi.github.io/ghotala-releases/screens/hero.jpg">
+  <meta property="og:description" content="Plan your day, build good habits, remember everything. One calm app for Android.">
+  <meta property="og:image" content="https://priyanshuayodhyawasi.github.io/ghotala-releases/logo.png">
   <link rel="icon" href="logo.png">
-  <link rel="stylesheet" href="style.css?v=55">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=56">
 </head>
 <body>
-<main>
+<div class="wrap">
+  <nav>
+    <a class="brand" href="#"><img src="logo-120.png" alt="">Ghotala</a>
+    <div class="links"><a href="#features">Features</a><a href="#ai">AI</a><a href="#install">Install</a><a href="privacy.html">Privacy</a></div>
+  </nav>
+
   <header class="hero">
-    <img class="icon" src="logo.png" alt="Ghotala app icon">
-    <h1>Ghotala</h1>
-    <p class="tag">Your day, your routine, your focus. One calm app.</p>
-    <div class="cta">
+    <img class="logo" src="logo.png" alt="Ghotala app icon">
+    <h1>Your day,<br>calmly organised.</h1>
+    <p class="lead">To-dos, your daily routine, notes, a diary, alarms and focus, in one simple app. Talk to it, or just tap.</p>
+    <div class="btns">
       <a class="btn" href="https://github.com/PriyanshuAyodhyawasi/ghotala-releases/releases/latest/download/Ghotala.apk">Download for Android</a>
       <a class="btn ghost" href="#install">How to install</a>
     </div>
@@ -25,63 +33,109 @@
     <p class="small">Free · no ads · no account · your data stays on your phone</p>
   </header>
 
-  <img class="banner" src="screens/hero.jpg" alt="Ghotala screens: Today, Diary, Lock In, Rhythm and Your week">
+  <div class="phones">
+    <img src="shots/rhythm.jpg" alt="Rhythm" loading="lazy">
+    <img src="shots/today.jpg" alt="Today">
+    <img src="shots/notes.jpg" alt="Notes" loading="lazy">
+    <img src="shots/diary.jpg" alt="Diary" loading="lazy">
+  </div>
+</div>
 
-  <section class="grid">
-    <div class="card"><span class="em">✅</span><h3>Today</h3><p>A list for each day. Type “Call mom at 6pm” and the time sets itself. Unfinished items move to tomorrow.</p></div>
-    <div class="card"><span class="em">🌿</span><h3>Rhythm</h3><p>Your routine on a timeline. Add a block in one line: “Water every 2 hours from 8am to 10pm”.</p></div>
-    <div class="card"><span class="em">📖</span><h3>Diary</h3><p>Mood check-ins any time, feelings, photos, #tags and search. Speak instead of typing. Insights from day 3.</p></div>
-    <div class="card"><span class="em">🔒</span><h3>Lock In</h3><p>Focus, Pomodoro or Sleep, a new scene each time, and a real player: shuffle, repeat, queue and seek.</p></div>
-    <div class="card"><span class="em">📝</span><h3>Notes</h3><p>Every note is a chat with yourself: messages with times, lists, photos, drawings and voice notes. Speak to type, give it a photo or emoji, lock any note.</p></div>
-    <div class="card"><span class="em">📅</span><h3>Calendar</h3><p>Month, week, day and list, with India's holidays and festivals and everything you've planned.</p></div>
-    <div class="card"><span class="em">🔐</span><h3>Vault</h3><p>Passwords and secure notes, encrypted on your phone. Pull down on Today to open it.</p></div>
-    <div class="card"><span class="em">⏰</span><h3>Alarm</h3><p>13 missions to turn it off, alarm series, naps, a sunrise screen, a talking alarm, your own songs and a morning routine. All free.</p></div>
-    <div class="card"><span class="em">📈</span><h3>Score</h3><p>Today's score, insights about your days, screen time, and “Ask AI about your month” for Claude, Gemini or ChatGPT.</p></div>
-    <div class="card"><span class="em">🔔</span><h3>Smart reminders</h3><p>Snooze to tonight or tomorrow, pick your own sounds, and keep-reminding tasks that won't let you slack.</p></div>
-    <div class="card"><span class="em">🧩</span><h3>Widgets</h3><p>Today, Rhythm (tick blocks off right there) and the Ghotala dock: one tap to any part of the app.</p></div>
-    <div class="card"><span class="em">☁️</span><h3>Your backup</h3><p>Optional: everything goes to a Ghotala folder in your own Google Drive.</p></div>
-  </section>
-
-  <section class="card">
-    <h2>Screens</h2>
-    <div class="shots">
-      <figure><img src="screens/today.jpg" alt="Today" loading="lazy"><figcaption>Today</figcaption></figure>
-      <figure><img src="screens/diary.jpg" alt="Diary" loading="lazy"><figcaption>Diary</figcaption></figure>
-      <figure><img src="screens/week.jpg" alt="Your week" loading="lazy"><figcaption>Your week</figcaption></figure>
-      <figure><img src="screens/lockin.jpg" alt="Lock In" loading="lazy"><figcaption>Lock In</figcaption></figure>
-      <figure><img src="screens/rhythm.jpg" alt="Rhythm" loading="lazy"><figcaption>Rhythm</figcaption></figure>
-      <figure><img src="screens/notes.jpg" alt="Notes" loading="lazy"><figcaption>Notes</figcaption></figure>
-      <figure><img src="screens/month.jpg" alt="Month of moods" loading="lazy"><figcaption>Month of moods</figcaption></figure>
-      <figure><img src="screens/guide.jpg" alt="Guide" loading="lazy"><figcaption>Guide</figcaption></figure>
-      <figure><img src="screens/widgets.jpg" alt="Widgets" loading="lazy"><figcaption>Widgets</figcaption></figure>
+<section id="features">
+  <div class="wrap">
+    <div class="row">
+      <div class="text">
+        <div class="eyebrow">Today</div>
+        <h2>A list that doesn't let things slip.</h2>
+        <p class="sub">Write what you need to do and tap it when it's done. Anything you don't finish moves to tomorrow. Hold ＋ and just say it.</p>
+      </div>
+      <img src="shots/today.jpg" alt="Today screen" loading="lazy">
     </div>
-  </section>
+  </div>
+</section>
 
-  <section class="card" id="install">
-    <h2>Install in a minute</h2>
+<section class="alt">
+  <div class="wrap">
+    <div class="row flip">
+      <div class="text">
+        <div class="eyebrow">Rhythm</div>
+        <h2>Your routine, on a timeline.</h2>
+        <p class="sub">Water, gym, study, skincare: the things you do every day, at their time. Tick them off and watch your week fill up.</p>
+      </div>
+      <img src="shots/rhythm.jpg" alt="Rhythm screen" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="row">
+      <div class="text">
+        <div class="eyebrow">Notes and Diary</div>
+        <h2>Write like you're texting yourself.</h2>
+        <p class="sub">Every note is a chat with times, photos, lists and voice notes. The diary is the same: say how you feel, write a line, look back later.</p>
+      </div>
+      <img src="shots/diary.jpg" alt="Diary screen" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="ai">
+  <div class="wrap">
+    <div class="eyebrow">Ghotala AI</div>
+    <h2>Bring your own AI. Then just talk.</h2>
+    <p class="sub">Connect your own Claude, ChatGPT or Gemini key in Settings. Hold ＋ and say "Remind me to call mom at 6" or "Add gym to my routine". It asks what it needs, shows you what it will add, and adds it when you say yes.</p>
+    <div class="grid">
+      <div class="card"><span class="em">🎙️</span><h3>Talk, don't type</h3><p>It listens, answers out loud, and keeps the conversation going. Hindi and Hinglish work too.</p></div>
+      <div class="card"><span class="em">✅</span><h3>You stay in charge</h3><p>Nothing is added until you tap Add or say yes.</p></div>
+      <div class="card"><span class="em">🔑</span><h3>Your key, your AI</h3><p>Your key stays encrypted on your phone. Ghotala has no servers, so nothing comes to us.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="eyebrow">Everything else</div>
+    <h2>Small things that make a day better.</h2>
+    <div class="grid">
+      <div class="card"><span class="em">⏰</span><h3>Alarm</h3><p>13 missions to turn it off, alarm series, naps, your own songs and a morning routine.</p></div>
+      <div class="card"><span class="em">🎧</span><h3>Lock In</h3><p>A focus timer with calm scenes and music, or your own songs and apps.</p></div>
+      <div class="card"><span class="em">📅</span><h3>Calendar</h3><p>Month, week, day and list, with India's holidays and festivals.</p></div>
+      <div class="card"><span class="em">🔐</span><h3>Vault</h3><p>Passwords and secure notes, encrypted on your phone. Pull down on Today to open it.</p></div>
+      <div class="card"><span class="em">📈</span><h3>Insights</h3><p>One clear line about your week, and what makes your good days good.</p></div>
+      <div class="card"><span class="em">🧩</span><h3>Widgets</h3><p>Your Today list and a dock that matches your theme, right on the home screen.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="install">
+  <div class="wrap">
+    <div class="eyebrow">Install</div>
+    <h2>Ready in a minute.</h2>
     <ol class="steps">
-      <li><a href="https://github.com/PriyanshuAyodhyawasi/ghotala-releases/releases/latest/download/Ghotala.apk">Download Ghotala.apk</a> on your Android phone.</li>
-      <li>Open it. If Android asks, allow installing from your browser or Files app.</li>
-      <li>Open Ghotala. A five-tip tour shows you around.</li>
+      <li><span><a href="https://github.com/PriyanshuAyodhyawasi/ghotala-releases/releases/latest/download/Ghotala.apk">Download Ghotala.apk</a> on your Android phone.</span></li>
+      <li><span>Open it. If Android asks, allow installing from your browser or Files app.</span></li>
+      <li><span>Open Ghotala. A short demo shows you everything.</span></li>
     </ol>
-    <p><strong>Updates:</strong> when a new version is out, Ghotala shows “Update now” and installs it for you. Your data is kept.
-      Prefer automatic updates? <a href="https://apps.obtainium.imranr.dev/redirect.html?r=obtainium://add/https://github.com/PriyanshuAyodhyawasi/ghotala-releases">Add it to Obtainium</a>.</p>
-    <p class="small">Works on Android 8.0 and newer.</p>
-  </section>
+    <p class="sub">New versions install from inside the app with "Update now", and your data is kept. Prefer automatic updates? <a href="https://apps.obtainium.imranr.dev/redirect.html?r=obtainium://add/https://github.com/PriyanshuAyodhyawasi/ghotala-releases">Add it to Obtainium</a>. Works on Android 8.0 and newer.</p>
+  </div>
+</section>
 
-  <section class="card">
-    <h2>Private by design</h2>
-    <p>No ads, no analytics, no account. Everything is stored on your phone; Google Drive backup is optional and goes to your own Drive.
-      The Vault is encrypted with your PIN. <a href="privacy.html">Read the privacy policy</a>.</p>
-  </section>
+<section>
+  <div class="wrap">
+    <p class="quote">No ads, no tracking, no account. Your data lives on your phone, and the optional backup goes to your own Google Drive.</p>
+    <p class="sub"><a href="privacy.html">Read the privacy policy</a></p>
+  </div>
+</section>
 
+<div class="wrap">
   <footer>
-    <a href="privacy.html">Privacy policy</a> ·
-    <a href="https://github.com/PriyanshuAyodhyawasi/ghotala-releases">GitHub</a> ·
+    <a href="privacy.html">Privacy policy</a>
+    <a href="https://github.com/PriyanshuAyodhyawasi/ghotala-releases">GitHub</a>
     <a href="https://github.com/PriyanshuAyodhyawasi/ghotala-releases/issues">Feedback</a>
     <p>Crafted with ❤️ by Chiku · Inspired by TaskPulse by Srijan Rishi</p>
   </footer>
-</main>
+</div>
 <script>
   // The newest version, from GitHub, under the Download button (the button always gets the newest APK).
   fetch('https://api.github.com/repos/PriyanshuAyodhyawasi/ghotala-releases/releases/latest')

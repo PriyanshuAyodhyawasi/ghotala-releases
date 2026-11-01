@@ -40,18 +40,20 @@
 
 **Diary.** Say how you feel with a face, write a line, look back later.
 
-**Alarm.** 13 missions to turn it off, alarm series, naps, your own songs and a morning routine.
+**Alarm.** 13 missions to turn it off, alarm series, naps, your own songs, and an "I'm up" screen so you don't fall back asleep.
 
 **Lock In.** A focus timer with calm scenes and music, or your own songs and apps.
 
 **Calendar, Vault, Insights and widgets.** India's holidays, an encrypted password vault, one clear line about your week, and a home-screen dock that matches your theme.
+
+**Your look.** Light, dark, or a White or Black doodle wallpaper behind everything.
 
 **Hold ＋ and speak.** On any page, hold ＋ and say what you want to add.
 
 ### Ghotala AI
 
 Bring your own AI. Connect your Claude, ChatGPT or Gemini key in **Settings → AI**, then hold ＋ and talk:
-*"Remind me to call mom at 6"*, *"Add gym to my routine"*, *"How was my week?"*. It asks what it needs, shows you what it will add, and adds it when you say yes. Your key stays encrypted on your phone; Ghotala has no servers.
+*"Remind me to call mom at 6"*, *"Add eggs to my grocery list"*, *"What's the weather?"*. It answers questions, works across the whole app from any page, and shows you what it will add or change before it does. Send it a photo of your timetable and your classes land in Rhythm, with a reminder before each one. Your key stays encrypted on your phone; Ghotala has no servers.
 
 ### Install
 

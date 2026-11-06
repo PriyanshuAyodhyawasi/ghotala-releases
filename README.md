@@ -61,7 +61,7 @@ Bring your own AI. Connect your Claude, ChatGPT or Gemini key in **Settings → 
 2. Open it. If Android asks, allow installing from your browser or Files app.
 3. Open Ghotala. A short demo shows you everything.
 
-New versions install from inside the app with *"Update now"*, and your data is kept. Prefer automatic updates? Add this repository in [Obtainium](https://github.com/ImranR98/Obtainium): `https://github.com/PriyanshuAyodhyawasi/ghotala-releases`
+New versions show up on the Today screen every time you open Ghotala: tap *"Update now"* and it installs from inside the app. Your data is kept.
 
 Works on Android 8.0 and newer.
 
